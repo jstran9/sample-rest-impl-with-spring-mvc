@@ -13,6 +13,4 @@ public interface CustomerMapper {
     CustomerDTO customerToCustomerDTO(Customer customer);
 
     Customer customerDtoToCustomer(CustomerDTO customerDTO);
-
-    CustomerDTO saveCustomerByDTO(Long id, CustomerDTO customerDTO);
 }
