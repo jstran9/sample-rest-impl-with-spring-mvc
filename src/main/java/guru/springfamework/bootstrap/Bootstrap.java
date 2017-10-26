@@ -22,7 +22,7 @@ public class Bootstrap implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         loadCategories();
-
+        loadCustomers();
     }
 
     private void loadCategories() {
@@ -55,13 +55,13 @@ public class Bootstrap implements CommandLineRunner {
 
         Customer customer = new Customer();
         customer.setId(1L);
-        customer.setFirstName("Lebron");
-        customer.setLastName("James");
+        customer.setFirstname("Lebron");
+        customer.setLastname("James");
 
         Customer customer2 = new Customer();
         customer2.setId(2L);
-        customer2.setFirstName("Dwyane");
-        customer2.setLastName("Wade");
+        customer2.setFirstname("Dwyane");
+        customer2.setLastname("Wade");
 
         customerRepository.save(customer);
         customerRepository.save(customer2);
