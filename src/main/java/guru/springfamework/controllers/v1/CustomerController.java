@@ -2,7 +2,6 @@ package guru.springfamework.controllers.v1;
 
 import guru.springfamework.api.v1.model.CustomerDTO;
 import guru.springfamework.api.v1.model.CustomerListDTO;
-import guru.springfamework.domain.Customer;
 import guru.springfamework.services.CustomerService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -10,8 +9,10 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
 @Controller
-@RequestMapping("/api/v1/customers")
+@RequestMapping(CustomerController.BASE_URL)
 public class CustomerController {
+
+    public static final String BASE_URL = "/api/v1/customers";
 
     private final CustomerService customerService;
 
