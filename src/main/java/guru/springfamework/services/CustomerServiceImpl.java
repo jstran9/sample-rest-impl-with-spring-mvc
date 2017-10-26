@@ -88,4 +88,9 @@ public class CustomerServiceImpl implements CustomerService {
             return returnDto;
         }).orElseThrow(RuntimeException::new); //todo implement better exception handling;
     }
+
+    @Override
+    public void deleteCustomerById(Long id) {
+        customerRepository.deleteById(id);
+    }
 }
