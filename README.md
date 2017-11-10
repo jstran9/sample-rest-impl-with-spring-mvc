@@ -1,4 +1,4 @@
-# Sample Sprinp5 MVC REST Application
+# Sample Spring5 MVC REST Application
 
 - This code follows the section of RESTFul WebServices with Spring MVC from John Thompson's Spring Framework 5: Beginner to Guru course.
 	- In this section with the help of Spring Boot and Spring MVC there were a few assignments asking to implement a Vendors API similiar to the one seen here, https://api.predic8.de/shop/docs 
