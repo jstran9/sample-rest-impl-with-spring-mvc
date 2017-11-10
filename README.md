@@ -2,7 +2,7 @@
 
 - This code follows the section of RESTFul WebServices with Spring MVC from John Thompson's Spring Framework 5: Beginner to Guru course.
 	- In this section with the help of Spring Boot and Spring MVC there were a few assignments asking to implement a Vendors API similiar to the one seen here, https://api.predic8.de/shop/docs 
-	- RESTFul API calls could be made using a variety of HTTP methods such as: GET, POST, DELETE, GET, PATCH, and PUT.
+	- RESTFul API calls could be made using a variety of HTTP methods such as: GET, POST, DELETE, PATCH, and PUT.
 	- In this section we also discussed using TDD (Test Driven Development) to perform test automation on the implementations of the APIs created.
 		- Some technologies listed below and a brief discussion about them:
 			- JUnit: The framework used to create the automated tests.
